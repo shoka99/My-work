@@ -1,0 +1,94 @@
+@media(prefers-color-scheme: dark){
+    :root{
+        --body:#151437;
+        --text:#FFFFFF;
+        --dots:#EBEBEB;
+        --work_info: #7177F1;
+        --footerlink:#fff;
+    }
+    .logo::after {
+        content: url(../images/logo_2.png);
+    }
+    body{
+        background-color: var(--body);
+    }
+}
+@media(max-width:550px){
+    .carusel__img{
+        height: 100%;
+    }
+   .intro_icon span{
+       font-size: 80px;
+   }
+   .intro_title{
+       font-size: 35px;
+       line-height: 40px;
+   }
+   .intro_btn{
+       width: 80%;
+   }
+}
+@media(max-width:1200px){
+    .tab_desc{
+        margin-top: 15px;
+    }
+}
+@media(max-width:500px){
+    .tab_desc{
+        font-size: 16px;
+        text-align: justify;
+    }
+}
+@media(max-width:500px){
+    .tab_desc{
+        font-size: 16px;
+        text-align: justify;
+    }
+    .work_img{
+        width: 100%;
+    }
+    .work_info{
+        width: 150px;
+        height: 50px;
+        left: 12px;
+        top: 0;
+        font-size: 15px;
+    }
+    .work_info::after{
+        width: 35px;
+        height: 35px;
+        top: -12px;
+        right: -12px;
+    }
+    .work_desc-title{
+        font-size: 30px;
+    }
+    .work_desc-text{
+        font-size: 16px;
+        line-height: 19px;
+        text-align: justify;
+        margin-top: 20px;
+    }
+    .work_desc{
+        padding: 15px;
+    }
+    .work_desc-btn{
+        margin: 0 auto;
+    }
+    .cap{
+        margin-top: 30px;
+    }
+    .cap_title{
+        font-size: 30px;
+    }
+    .accordion_body{
+        padding: 15px;
+        font-size: 14px;
+    }
+    .accordion_button{
+        padding: 10px 20px;
+    }
+    .accordion_icon-title{
+        font-size: 14px;
+    }
+}
